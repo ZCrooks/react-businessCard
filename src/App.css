@@ -1,12 +1,119 @@
+html {font-size: 125%}
+
+body {
+  background-color: #23252C;
+  font-family: Inter, sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
 }
 
+h2 {
+  font-size: 1rem;
+  color: #F47D27;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-align: left;
+  padding-bottom: 0;
+}
+
+p {
+  font-size: 0.8rem;
+  text-align: left;
+  line-height: 25px;
+}
+
+.website {
+  text-decoration: none;
+  color: black;
+}
+
+.about-section, .interests-section{
+  padding: 0 15px;
+}
+
+.heading-background {
+    background-image: url(./components/imgs/profileImg.png);
+    height: 60vh;
+    background-position-x: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-wrapper {
+  width: 30%;
+  border-radius: 10px;
+  position: relative;
+  left: 30%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center
+}
+
+.card-wrapper {
+  background-color: #F5F5F5;
+}
+
+.buttons {
+  display: flex;
+  padding: 20px;
+}
+
+.button-email {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  width: calc(100% / 2);
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.button-Linkedin {
+  background-color: #297FE5;
+  color: #FFFFFF;
+  border-radius: 5px;
+  width: calc(100% / 2);
+  margin-left: 10px;
+}
+
+.button-email:hover{
+  background-color: #F47D27;
+  cursor: pointer;
+}
+.button-email:focus {
+  background-color: #F47D27;
+  cursor: pointer;
+}
+
+.button-Linkedin:hover{
+  background-color: black;
+  cursor: pointer;
+}
+.button-Linkedin:focus {
+  background-color: black;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #D5D4D8;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-icon {
+  color: #918E9B;
+  margin: 20px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,3 +143,5 @@
     transform: rotate(360deg);
   }
 }
+
+
